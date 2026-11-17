@@ -1,0 +1,28 @@
+# Provider downloads and local Terraform metadata
+.terraform/
+
+# State and saved plans can contain sensitive values
+*.tfstate
+*.tfstate.*
+*.tfplan
+tfplan
+
+# Local values and credentials
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+.aws/
+
+# Crash logs and local overrides
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+.DS_Store
+
+# Commit .terraform.lock.hcl for reproducible provider selection.

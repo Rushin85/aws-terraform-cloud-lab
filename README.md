@@ -8,6 +8,10 @@ This project demonstrates Infrastructure as Code (IaC), AWS networking, Linux se
 
 The environment was successfully deployed and tested by accessing the NGINX welcome page through the EC2 instance's public IP address.
 
+## Architecture Diagram
+
+![AWS Terraform Cloud Lab Architecture](images/architecture.png)
+
 ## Technologies Used
 
 - **AWS:** VPC, EC2, Subnets, Internet Gateway, Route Tables, Security Groups
